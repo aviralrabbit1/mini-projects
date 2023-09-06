@@ -7,7 +7,7 @@ const Wrapper = ({ children }) => {
       padding: '10px',
       borderRadius: '10px',
       backgroundColor: '#485461',
-      backgroundImage: 'linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%)'
+      backgroundImage: 'linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%)'
     }
     return (
         <div style={wrapperStyle}>

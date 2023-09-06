@@ -1,8 +1,15 @@
 import React from 'react'
 
-function Title() {
+function Title(props) {
+  const titleStyle = {
+    color: 'white',
+    backgroundColor: '#4372d1',
+    fontSize: '24px',
+    padding: '4px',
+    // backgroundImage: 'linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%)'
+  }
   return (
-    <div>Aviral's Calculator</div>
+    <div style={titleStyle} >{props.value}</div>
   )
 }
 

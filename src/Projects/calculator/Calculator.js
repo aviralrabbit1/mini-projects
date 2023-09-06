@@ -9,7 +9,7 @@ const Calculator = () => {
   return (
     <div>
       <Wrapper>
-        <Title/>
+        <Title value="Aviral's Calculator" />
         <Screen/>
         <Buttonbox/>
         <Buttons/>
