@@ -10,7 +10,7 @@ const Calculator = () => {
     <div>
       <Wrapper>
         <Title value="Aviral's Calculator" />
-        <Screen/>
+        <Screen value="0" />
         <Buttonbox/>
         <Buttons/>
       </Wrapper>
