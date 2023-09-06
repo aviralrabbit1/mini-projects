@@ -5,15 +5,15 @@ import Screen from './components/Screen'
 import Buttonbox from './Buttonbox'
 import Buttons from './components/Buttons'
 
-function Calculator() {
+const Calculator = () => {
   return (
     <div>
-      <Wrapper/>
-      <Title/>
-      <Screen/>
-      <Buttonbox/>
-      <Buttons/>
-      <Wrapper/>
+      <Wrapper>
+        <Title/>
+        <Screen/>
+        <Buttonbox/>
+        <Buttons/>
+      </Wrapper>
     </div>
   )
 }
