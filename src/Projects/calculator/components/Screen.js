@@ -8,7 +8,7 @@ const Screen = ({ value }) => {
         marginBottom: '10px',
         marginTop: '10px',
         padding: '0 10px',
-        backgroundColor: '#D8BFD8',
+        backgroundColor: '#edb1f1',
         borderRadius: '10px',
         border: '2px solid black',
         display: 'flex',

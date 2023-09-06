@@ -8,7 +8,7 @@ const ButtonBox = ({ children }) => {
     gridTemplateColumns: 'repeat(4, 1fr)',
     gridTemplateRows: 'repeat(5, 1fr)',
     gridGap: '10px',
-    border: '2px solid #142d4c'
+    // border: '2px solid #142d4c'
   }
   return (
     <div style={buttonBoxStyle}>
